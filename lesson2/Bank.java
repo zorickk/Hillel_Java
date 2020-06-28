@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 public class Bank {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter the deposit amount in UAH :");
-        double money = in.nextDouble();
+        double money = scanner.nextDouble();
 
         System.out.println("Enter the desired percentage :");
-        double percent = in.nextDouble();
+        double percent = scanner.nextDouble();
 
         System.out.println("Enter deposit term in years :");
-        int year = in.nextInt();
+        int year = scanner.nextInt();
 
         double income = (percent * money / 100) * year;
         double sum = income + money * year;
