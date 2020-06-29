@@ -2,7 +2,7 @@ package lesson3;
 
 import java.util.Scanner;
 
-public class Factorial {
+public class forFactorial {
     public static void main(String[] args) {
 
         System.out.println("Calculate the Factorial of a Number: ");

@@ -1,6 +1,6 @@
 package lesson3;
 
-public class oddNumbers {
+public class forOddNumbers {
     public static void main(String[] args) {
         int a = 0;
         int b = 100;
