@@ -4,14 +4,17 @@ import java.util.Scanner;
 
 public class Factorial {
     public static void main(String[] args) {
-        System.out.println(calculateFactorial(4));
+
+        System.out.println("Calculate the Factorial of a Number: ");
+        System.out.print("Enter the number to calculate the factorial: ");
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+
+        int res = 1;
+        for (int i = 1; i <= n; i++) {
+            res = res * i;
+        }
+        System.out.println("Factorial numbers: " + n + " = " + res);
     }
 
-    public static int calculateFactorial(int n){
-        int result = 1;
-        for (int i = 1; i <=n; i ++){
-            result = result*i;
-        }
-        return result;
-    }
 }
