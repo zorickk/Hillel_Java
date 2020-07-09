@@ -59,7 +59,7 @@ public class Car {
 
 class RunCar {
     public static void main(String[] args) throws InterruptedException {
-        lesson4.Car car = new lesson4.Car(40, 15, 6);
+        Car car = new Car(40, 15, 6);
         System.out.println("");
         System.out.println("---- Odessa-Kiev-Road ----");
         System.out.println("");
